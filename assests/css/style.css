@@ -4,8 +4,15 @@
 :root {
     --primary-color: #0f1b4c;
 }
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body {
     font-size: 1.6rem;
@@ -59,6 +66,7 @@ a {
     height: calc(100vh - 90px);
     background-color: #e6f0ff;
     position: relative;
+    display: flex;
 }
 
 .navbar {
